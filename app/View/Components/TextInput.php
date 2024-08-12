@@ -12,14 +12,13 @@ class TextInput extends Component
      * Create a new component instance.
      */
     public function __construct(
-    
         public ?string $value = null,
-        public ?string $name=  null,
+        public ?string $name = null,
         public ?string $placeholder = null,
-     ) {
+        public ?string $formId = null
+    ) {
 
-        //
-     }
+    }
 
     /**
      * Get the view / contents that represent the component.
